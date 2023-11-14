@@ -1,0 +1,201 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+}
+.content-container{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    background-color: #fff;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    min-height: 10vh;
+}
+.content{
+    background-color:#bababa;
+    flex: 6;
+}
+.footer{
+    background-color: #3c3c3f;
+    flex: 2;
+    min-height: 20vh;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+}
+.button-of-menu{
+
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.main-content-place{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    gap: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.first-column{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-around;
+}
+.second-column{
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    justify-content: start;
+}
+.business-woman{
+    width: 30vmin;
+}
+.negotiations-photo{
+    width: 40vmin;
+}
+.business-centre{
+    width: 40vmin;
+}
+
+.learn-more-button{
+    background-color: rgb(0,0,0,0);
+    width: 25vmin;
+    height: 7vmin;
+    font-size: 2.5vmin;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.company-second-column-text-area{
+    width: 50%;
+}
+.company-description{
+    width: 80%;
+    font-size: 2.3vmin;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-photo{
+    display: flex;
+    justify-content: end;
+}
+.second-photo{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.third-photo{
+    position: relative;
+}
+.information-sign-container{
+    width: 75%;
+    height: 75%;
+    background-color: #fff;
+    position: absolute;
+    top: 8%;
+    left: 45%;
+    right: 0%;
+    bottom: 0%;
+    overflow-y:hidden;
+}
+.information-sign-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 7%;
+}
+
+.info-header{
+    font-size: 4vmin;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info-desc{
+    font-size: 2.5vmin;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vmin;
+    color: #fff;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text-container{
+    width: 50%;
+}
+
+.menu-button{
+    border: rgb(0,0,0,0);
+    background-color:  rgb(0,0,0,0);
+    font-size: 2.3vmin;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    font-size: 3.5vmin;
+    font-weight: 900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#3c3c3f;
+    width: 15%;
+    display: flex;
+    justify-content: start;
+}
+.menu-button-active{
+    border: 0px solid rgb(255, 0, 0, 0);
+    color: red;
+    text-decoration: underline;
+    background-color:  rgb(0,0,0,0);
+    font-size: 2.3vmin;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mobile-menu{
+    height: 100%;
+    width: 35%;
+    background-color: #cacaca;
+    position: absolute;
+    align-self: flex-end;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+}
+
+.menu-list-button{
+    display: none;
+    z-index: 3;
+}
+.button-image{
+    width: 25%;
+}
+.button-of-mobile-menu{
+    display: none;
+    text-align: start;
+    padding-left: 10%;
+}

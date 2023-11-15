@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    min-height: 100vh;
+}
+@font-face {
+    font-family: 'Andika'; 
+    src: url('../fonts/Andika_Regular.ttf') format('ttf'); 
+}
+
+
+.main-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.menu-container{
+    background-color: #ffffff;
+    flex: 1;
+    min-height: 10vh;
+}
+.content-container{
+    background-color:rgb(224,229,235);
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container{
+    background-color:rgb(51,51,51);
+    flex: 1.5;
+    min-height: 15vh;
+}
+
+
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.menu-buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+}
+.logo-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 20%;
+}
+.menu-button{
+    background-color: rgb(0,0,0,0);
+    border: solid 0px #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.5vmin;
+    color: gray;
+}
+.logo{
+    font-size: 4.5vmin;
+    color: lightgray;
+}
+
+
+.columns-container{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+.first-column-container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    gap: 6vmin;
+}
+.first-photo-container{
+    display: flex;
+    justify-content: end;
+}
+.first-photo{
+    width: 30vmin;
+}
+.second-column-container{
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    gap: 2vmin;
+}
+.second-photo-container{
+    display: flex;
+    justify-content: end;
+}
+.second-photo{
+    width: 40vmin;
+}
+.third-photo-container{
+    display: flex;
+    justify-content: start;
+    position: relative;
+}
+.third-photo{
+    width: 50vmin;
+}
+.company-description-container{
+    width: 65%;
+}
+.text-of-description{
+    font-family: 'Andika', sans-serif ;
+    font-size: 2.4vmin;
+    font-style: italic;
+}
+
+
+.learn-more-button{
+    background-color: rgb(0,0,0,0);
+    width: 30vmin;
+    height: 7vmin;
+    font-family: 'Andika', sans-serif;
+    font-size: 2.5vmin;
+}
+
+.course-description-container{
+    position: absolute;
+    background-color: #fff;
+    width: 60%;
+    height: 80%;
+    top: 10%;
+    bottom: 0%;
+    left: 45%;
+    right: 0%;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.course-description-header{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 5vmin;
+}
+.course-description-text{
+    margin: 2%;
+    font-size: 2.5vmin;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.description-footer-text{
+    text-align: center;
+    color: white;
+    font-size: 2.4vmin;
+}
+.description-footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

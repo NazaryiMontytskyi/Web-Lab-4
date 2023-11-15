@@ -56,6 +56,21 @@
     .text-of-description{
         font-size: 4vmin;
     }
+    .menu-buttons-container{
+        display: none;
+    }
+    .menu-container{
+        justify-content: space-between;
+    }
+    .mobile-menu-button{
+        display: block;
+        width:5%;
+        justify-self: flex-end;
+        padding-right: 10%;
+    }
+    .logo{
+        padding-left: 10%;
+    }
 }
 
 
@@ -133,6 +148,9 @@
     }
     .learn-more-button{
         font-size: 4vmin;
+    }
+    .mobile-menu-button{
+        width: 10%;
     }
 }
 
